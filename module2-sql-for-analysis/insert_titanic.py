@@ -4,7 +4,7 @@ import psycopg2
 
 dbname = 'oxnndimc'
 user = 'oxnndimc'  # ElephantSQL chooses to reuse dbname and username
-password = 'ac62NvUdHTIbBcDEjAvg3pOA2Swm1xaV'
+password = '<password>'
 host = 'ruby.db.elephantsql.com'  # Port is default 5432
 
 pg_conn = psycopg2.connect(dbname= dbname, user= user, password= password, host= host)
