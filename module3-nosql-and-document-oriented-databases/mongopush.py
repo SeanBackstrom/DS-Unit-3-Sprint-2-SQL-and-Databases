@@ -1,6 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient("mongodb://beanbagthomas:KJBwhbwpUcVdt9oD@cluster0-shard-00-00.yiqb7.mongodb.net:27017,cluster0-shard-00-01.yiqb7.mongodb.net:27017,cluster0-shard-00-02.yiqb7.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12kh1k-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb://beanbagthomas:<password>@cluster0-shard-00-00.yiqb7.mongodb.net:27017,cluster0-shard-00-01.yiqb7.mongodb.net:27017,cluster0-shard-00-02.yiqb7.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12kh1k-shard-0&authSource=admin&retryWrites=true&w=majority")
 db = client.test
 """
 
